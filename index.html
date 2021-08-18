@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NET-FRITAS</title>
+    <link rel="stylesheet" href="style/index.css">
+    <!--OWlCSS-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+    <!--Responsivo-->
+    <link rel="stylesheet" href="/style/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container borda20 top10">
+            <h2 class="logo">NET-FRITAS</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal" id="filmeprincipal">
+            <div class="container_fm borda20">
+                <h3 class="titulo" id="titulo">FRITISSÍMA</h3>
+                <p class="descricao" id="descricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum officia nostrum
+                    repellendus asperiores. Voluptas, sapiente?</p>
+                <div class="btns">
+                    <button role="button" class="btn">
+                        <i class="fas fa-utensils garfo"></i>
+                        Degustar Agora
+                    </button>
+                    <button role="button" class="btn">
+                        <i class="fas fa-cart-arrow-down rota-carrinho"></i>
+                        Embalar/ Viagem
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carousel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item" id="">
+                <img id="1" onclick="troca(this)" src="/img/f1.jpg" alt="" class="box-filme">
+            </div>
+            <div class="item">
+                <img id="2" onclick="troca(this)" src="/img/f2.jpg" alt="" class="box-filme">
+            </div>
+            <div class="item">
+                <img id="3" onclick="troca(this)" src="/img/f3.jpg" alt="" class="box-filme">
+            </div>
+            <div class="item">
+                <img id="4" onclick="troca(this)" src="/img/f4.jpg" alt="" class="box-filme">
+            </div>
+            <div class="item" >
+                <img id="5" onclick="troca(this)" src="/img/f5.jpg" alt="" class="box-filme">
+            </div>
+            <div class="item" >
+                <img id="6" onclick="troca(this)" src="/img/f6.jpg" alt="" class="box-filme">
+            </div>
+            <div class="item">
+                <img id="7" onclick="troca(this)" src="/img/f7.jpg" alt="" class="box-filme">
+            </div>
+            <div class="item">
+                
+                <img id="8" onclick="troca(this)" src="/img/f8.jpg" alt="" class="box-filme">
+                <div><i class="fa-solid fa-circle-plus"></i></div>
+            </div>
+        </div>
+    </div>
+    <Footer></Footer>
+    <script src="https://kit.fontawesome.com/d65307a889.js" crossorigin="anonymous"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
