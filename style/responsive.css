@@ -1,0 +1,29 @@
+@media(max-width:700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    header{
+        min-height: 10vh;
+    }
+    main .filme-principal{
+        min-height: 60vh;
+    }
+    .carousel-filmes{
+        min-height: 40vh;
+    }
+
+    .btn {
+        margin-top: 5px;
+        width: 250px;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .descricao{
+        max-width:50% ;
+    }
+}

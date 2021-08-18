@@ -1,0 +1,135 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.borda20{
+    margin-left: 20px;
+}
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', times;
+    font-size: 40px;
+}
+header nav{
+    margin-right: 5%;
+}
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/*Filme Principal*/
+
+.filme-principal {
+   /*  padding: 15px; */
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('https://media.gazetadopovo.com.br/2019/09/11150241/batata-frita-660x372.jpg');
+    height: 400px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.titulo {
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container_fm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btns {
+    margin-top: 20px;
+    ;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.descricao{
+    margin-top:4px;
+}
+
+.rota-carrinho{
+    margin-right: 5px;
+    transform: rotate(-30deg);
+}
+.garfo{
+    margin-right: 5px;
+}
+
+.descricao{
+    max-width: 60%;
+}
+
+/*Box Filme*/
+
+.box-filme{
+    min-height:100%;
+    min-width: 100%;
+    object-fit: fill;
+}
+
+.item{
+    height: 200px;
+}
+
+
+/*Ajustes finais da altura dos elemntos Pais em tela*/
+header{
+    min-height: 6vh;
+}
+main .filme-principal{
+    min-height: 60vh;
+}
+.carousel-filmes{
+    min-height: 40vh;
+}
+
+.top10{
+    margin-top: 20px;
+}
