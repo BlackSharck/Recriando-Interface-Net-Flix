@@ -1,2 +1,2 @@
-# Recriando-Interface-Net-Flix
+# Recriando-Interface-Netflix
 Repositório Destinado ao BootCamp de React  
